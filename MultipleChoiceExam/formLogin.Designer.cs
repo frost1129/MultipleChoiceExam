@@ -36,7 +36,7 @@ namespace MultipleChoiceExam
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbType = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.lbExit = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -77,6 +77,7 @@ namespace MultipleChoiceExam
             this.btLogin.TabIndex = 4;
             this.btLogin.Text = "Sign in";
             this.btLogin.UseVisualStyleBackColor = false;
+            this.btLogin.Click += new System.EventHandler(this.btLogin_Click);
             // 
             // txtUsername
             // 
@@ -104,9 +105,9 @@ namespace MultipleChoiceExam
             this.label3.Location = new System.Drawing.Point(35, 192);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 24);
+            this.label3.Size = new System.Drawing.Size(97, 24);
             this.label3.TabIndex = 0;
-            this.label3.Text = "User type";
+            this.label3.Text = "User Type";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
@@ -116,22 +117,22 @@ namespace MultipleChoiceExam
             this.label4.ForeColor = System.Drawing.Color.DarkCyan;
             this.label4.Location = new System.Drawing.Point(114, 90);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(172, 41);
+            this.label4.Size = new System.Drawing.Size(180, 43);
             this.label4.TabIndex = 4;
             this.label4.Text = "SIGN IN";
             // 
-            // comboBox1
+            // cbType
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.78182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.Teal;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbType.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.78182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbType.ForeColor = System.Drawing.Color.Teal;
+            this.cbType.FormattingEnabled = true;
+            this.cbType.Items.AddRange(new object[] {
             "Giảng viên",
             "Sinh viên"});
-            this.comboBox1.Location = new System.Drawing.Point(167, 189);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 30);
-            this.comboBox1.TabIndex = 0;
+            this.cbType.Location = new System.Drawing.Point(167, 189);
+            this.cbType.Name = "cbType";
+            this.cbType.Size = new System.Drawing.Size(200, 30);
+            this.cbType.TabIndex = 0;
             // 
             // checkBox1
             // 
@@ -154,7 +155,7 @@ namespace MultipleChoiceExam
             this.lbExit.ForeColor = System.Drawing.Color.Teal;
             this.lbExit.Location = new System.Drawing.Point(172, 444);
             this.lbExit.Name = "lbExit";
-            this.lbExit.Size = new System.Drawing.Size(58, 23);
+            this.lbExit.Size = new System.Drawing.Size(62, 24);
             this.lbExit.TabIndex = 5;
             this.lbExit.Text = "Exit";
             this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
@@ -166,7 +167,7 @@ namespace MultipleChoiceExam
             this.BackColor = System.Drawing.Color.MintCream;
             this.ClientSize = new System.Drawing.Size(402, 556);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cbType);
             this.Controls.Add(this.lbExit);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtPassword);
@@ -200,7 +201,7 @@ namespace MultipleChoiceExam
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cbType;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label lbExit;
     }
