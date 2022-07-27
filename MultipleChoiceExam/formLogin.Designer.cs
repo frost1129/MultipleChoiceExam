@@ -45,7 +45,7 @@ namespace MultipleChoiceExam
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(35, 242);
+            this.label1.Location = new System.Drawing.Point(38, 242);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(71, 24);
@@ -57,7 +57,7 @@ namespace MultipleChoiceExam
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(35, 288);
+            this.label2.Location = new System.Drawing.Point(38, 288);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(92, 24);
@@ -83,7 +83,7 @@ namespace MultipleChoiceExam
             // 
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUsername.ForeColor = System.Drawing.Color.Teal;
-            this.txtUsername.Location = new System.Drawing.Point(167, 240);
+            this.txtUsername.Location = new System.Drawing.Point(164, 240);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(200, 28);
             this.txtUsername.TabIndex = 1;
@@ -92,7 +92,7 @@ namespace MultipleChoiceExam
             // 
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPassword.ForeColor = System.Drawing.Color.Teal;
-            this.txtPassword.Location = new System.Drawing.Point(167, 286);
+            this.txtPassword.Location = new System.Drawing.Point(164, 286);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(200, 28);
             this.txtPassword.TabIndex = 2;
@@ -102,7 +102,7 @@ namespace MultipleChoiceExam
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(35, 192);
+            this.label3.Location = new System.Drawing.Point(38, 192);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(97, 24);
@@ -129,7 +129,7 @@ namespace MultipleChoiceExam
             this.cbType.Items.AddRange(new object[] {
             "Giảng viên",
             "Sinh viên"});
-            this.cbType.Location = new System.Drawing.Point(167, 189);
+            this.cbType.Location = new System.Drawing.Point(164, 189);
             this.cbType.Name = "cbType";
             this.cbType.Size = new System.Drawing.Size(200, 30);
             this.cbType.TabIndex = 0;
@@ -139,7 +139,7 @@ namespace MultipleChoiceExam
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.ForeColor = System.Drawing.Color.Teal;
-            this.checkBox1.Location = new System.Drawing.Point(230, 320);
+            this.checkBox1.Location = new System.Drawing.Point(227, 320);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(137, 24);
             this.checkBox1.TabIndex = 3;
