@@ -43,13 +43,13 @@ namespace MultipleChoiceExam
 
             if (txtPassword.Text == "admin")
             {
-                if (cbType.SelectedIndex == 0)
+                if (cbType.SelectedIndex == 0) // xử lý người dùng là giảng viên
                 {
                     formGV f = new formGV();
                     this.Hide();
                     f.ShowDialog();
                     this.Close();
-                } else if (cbType.SelectedIndex == 1)
+                } else if (cbType.SelectedIndex == 1) // xử lý người dùng là sinh viên
                 {
                     formSV f = new formSV();
                     this.Hide();
