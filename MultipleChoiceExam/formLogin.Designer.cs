@@ -123,6 +123,7 @@ namespace MultipleChoiceExam
             // 
             // cbType
             // 
+            this.cbType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbType.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.78182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbType.ForeColor = System.Drawing.Color.Teal;
             this.cbType.FormattingEnabled = true;
