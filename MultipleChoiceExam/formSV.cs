@@ -29,7 +29,7 @@ namespace MultipleChoiceExam
 
         private void btnCalendar_Click(object sender, EventArgs e)
         {
-            setMenuSlide(btnCalendar);
+            setMenuSlide(btnResult);
         }
 
         private void btnExam_Click(object sender, EventArgs e)

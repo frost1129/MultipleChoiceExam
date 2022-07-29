@@ -136,7 +136,7 @@ namespace MultipleChoiceExam
             this.btnSetting.Name = "btnSetting";
             this.btnSetting.Size = new System.Drawing.Size(160, 45);
             this.btnSetting.TabIndex = 2;
-            this.btnSetting.Text = "      Settings";
+            this.btnSetting.Text = "      Modify";
             this.btnSetting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSetting.UseVisualStyleBackColor = false;
             this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);

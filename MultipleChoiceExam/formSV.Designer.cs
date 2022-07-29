@@ -37,7 +37,7 @@ namespace MultipleChoiceExam
             this.btnExit = new System.Windows.Forms.Button();
             this.btnExam = new System.Windows.Forms.Button();
             this.lbMenuSlide = new System.Windows.Forms.Label();
-            this.btnCalendar = new System.Windows.Forms.Button();
+            this.btnResult = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelExit.SuspendLayout();
@@ -51,7 +51,7 @@ namespace MultipleChoiceExam
             this.panelMenu.Controls.Add(this.btnExit);
             this.panelMenu.Controls.Add(this.btnExam);
             this.panelMenu.Controls.Add(this.lbMenuSlide);
-            this.panelMenu.Controls.Add(this.btnCalendar);
+            this.panelMenu.Controls.Add(this.btnResult);
             this.panelMenu.Controls.Add(this.btnHome);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
@@ -154,23 +154,23 @@ namespace MultipleChoiceExam
             this.lbMenuSlide.TabIndex = 1;
             this.lbMenuSlide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // btnCalendar
+            // btnResult
             // 
-            this.btnCalendar.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnCalendar.FlatAppearance.BorderSize = 0;
-            this.btnCalendar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCalendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalendar.ForeColor = System.Drawing.Color.Azure;
-            this.btnCalendar.Image = ((System.Drawing.Image)(resources.GetObject("btnCalendar.Image")));
-            this.btnCalendar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCalendar.Location = new System.Drawing.Point(20, 310);
-            this.btnCalendar.Name = "btnCalendar";
-            this.btnCalendar.Size = new System.Drawing.Size(160, 45);
-            this.btnCalendar.TabIndex = 2;
-            this.btnCalendar.Text = "      Calendar";
-            this.btnCalendar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCalendar.UseVisualStyleBackColor = false;
-            this.btnCalendar.Click += new System.EventHandler(this.btnCalendar_Click);
+            this.btnResult.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnResult.FlatAppearance.BorderSize = 0;
+            this.btnResult.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResult.ForeColor = System.Drawing.Color.Azure;
+            this.btnResult.Image = ((System.Drawing.Image)(resources.GetObject("btnResult.Image")));
+            this.btnResult.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnResult.Location = new System.Drawing.Point(20, 310);
+            this.btnResult.Name = "btnResult";
+            this.btnResult.Size = new System.Drawing.Size(160, 45);
+            this.btnResult.TabIndex = 2;
+            this.btnResult.Text = "      Result";
+            this.btnResult.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnResult.UseVisualStyleBackColor = false;
+            this.btnResult.Click += new System.EventHandler(this.btnCalendar_Click);
             // 
             // btnHome
             // 
@@ -221,6 +221,6 @@ namespace MultipleChoiceExam
         private System.Windows.Forms.Button btnExam;
         private System.Windows.Forms.Label lbMenuSlide;
         private System.Windows.Forms.Button btnHome;
-        private System.Windows.Forms.Button btnCalendar;
+        private System.Windows.Forms.Button btnResult;
     }
 }
