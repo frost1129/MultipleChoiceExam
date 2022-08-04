@@ -30,7 +30,7 @@ namespace MultipleChoiceExam
 
         private void btnCourse_Click(object sender, EventArgs e)
         {
-            setMenuSlide(btnCourse);
+            setMenuSlide(btnAdd);
         }
 
         private void btnSetting_Click(object sender, EventArgs e)

@@ -34,10 +34,10 @@ namespace MultipleChoiceExam
             this.panelExit = new System.Windows.Forms.Panel();
             this.btnLogout = new System.Windows.Forms.Button();
             this.btnQuit = new System.Windows.Forms.Button();
+            this.lbMenuSlide = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnSetting = new System.Windows.Forms.Button();
-            this.btnCourse = new System.Windows.Forms.Button();
-            this.lbMenuSlide = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelExit.SuspendLayout();
@@ -50,7 +50,7 @@ namespace MultipleChoiceExam
             this.panelMenu.Controls.Add(this.panelExit);
             this.panelMenu.Controls.Add(this.btnExit);
             this.panelMenu.Controls.Add(this.btnSetting);
-            this.panelMenu.Controls.Add(this.btnCourse);
+            this.panelMenu.Controls.Add(this.btnAdd);
             this.panelMenu.Controls.Add(this.lbMenuSlide);
             this.panelMenu.Controls.Add(this.btnHome);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -105,6 +105,19 @@ namespace MultipleChoiceExam
             this.btnQuit.UseVisualStyleBackColor = false;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
+            // lbMenuSlide
+            // 
+            this.lbMenuSlide.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbMenuSlide.BackColor = System.Drawing.Color.MintCream;
+            this.lbMenuSlide.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMenuSlide.ForeColor = System.Drawing.Color.MintCream;
+            this.lbMenuSlide.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbMenuSlide.Location = new System.Drawing.Point(0, 251);
+            this.lbMenuSlide.Name = "lbMenuSlide";
+            this.lbMenuSlide.Size = new System.Drawing.Size(8, 45);
+            this.lbMenuSlide.TabIndex = 1;
+            this.lbMenuSlide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.DarkSlateGray;
@@ -141,36 +154,23 @@ namespace MultipleChoiceExam
             this.btnSetting.UseVisualStyleBackColor = false;
             this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
             // 
-            // btnCourse
+            // btnAdd
             // 
-            this.btnCourse.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.btnCourse.FlatAppearance.BorderSize = 0;
-            this.btnCourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCourse.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCourse.ForeColor = System.Drawing.Color.MintCream;
-            this.btnCourse.Image = ((System.Drawing.Image)(resources.GetObject("btnCourse.Image")));
-            this.btnCourse.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCourse.Location = new System.Drawing.Point(20, 309);
-            this.btnCourse.Name = "btnCourse";
-            this.btnCourse.Size = new System.Drawing.Size(160, 45);
-            this.btnCourse.TabIndex = 2;
-            this.btnCourse.Text = "      Courses";
-            this.btnCourse.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCourse.UseVisualStyleBackColor = false;
-            this.btnCourse.Click += new System.EventHandler(this.btnCourse_Click);
-            // 
-            // lbMenuSlide
-            // 
-            this.lbMenuSlide.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lbMenuSlide.BackColor = System.Drawing.Color.MintCream;
-            this.lbMenuSlide.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMenuSlide.ForeColor = System.Drawing.Color.MintCream;
-            this.lbMenuSlide.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbMenuSlide.Location = new System.Drawing.Point(0, 251);
-            this.lbMenuSlide.Name = "lbMenuSlide";
-            this.lbMenuSlide.Size = new System.Drawing.Size(8, 45);
-            this.lbMenuSlide.TabIndex = 1;
-            this.lbMenuSlide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdd.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnAdd.FlatAppearance.BorderSize = 0;
+            this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.Color.MintCream;
+            this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
+            this.btnAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdd.Location = new System.Drawing.Point(20, 309);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(160, 45);
+            this.btnAdd.TabIndex = 2;
+            this.btnAdd.Text = "      Add";
+            this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnCourse_Click);
             // 
             // btnHome
             // 
@@ -221,7 +221,7 @@ namespace MultipleChoiceExam
         private System.Windows.Forms.Button btnQuit;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnSetting;
-        private System.Windows.Forms.Button btnCourse;
+        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnHome;
     }
 }
