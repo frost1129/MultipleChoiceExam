@@ -34,10 +34,10 @@ namespace MultipleChoiceExam
             this.panelExit = new System.Windows.Forms.Panel();
             this.btnLogout = new System.Windows.Forms.Button();
             this.btnQuit = new System.Windows.Forms.Button();
-            this.lbMenuSlide = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnSetting = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.lbMenuSlide = new System.Windows.Forms.Label();
             this.btnHome = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.panelExit.SuspendLayout();
@@ -105,19 +105,6 @@ namespace MultipleChoiceExam
             this.btnQuit.UseVisualStyleBackColor = false;
             this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
-            // lbMenuSlide
-            // 
-            this.lbMenuSlide.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lbMenuSlide.BackColor = System.Drawing.Color.MintCream;
-            this.lbMenuSlide.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMenuSlide.ForeColor = System.Drawing.Color.MintCream;
-            this.lbMenuSlide.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbMenuSlide.Location = new System.Drawing.Point(0, 251);
-            this.lbMenuSlide.Name = "lbMenuSlide";
-            this.lbMenuSlide.Size = new System.Drawing.Size(8, 45);
-            this.lbMenuSlide.TabIndex = 1;
-            this.lbMenuSlide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.DarkSlateGray;
@@ -171,6 +158,19 @@ namespace MultipleChoiceExam
             this.btnAdd.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdd.UseVisualStyleBackColor = false;
             this.btnAdd.Click += new System.EventHandler(this.btnCourse_Click);
+            // 
+            // lbMenuSlide
+            // 
+            this.lbMenuSlide.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbMenuSlide.BackColor = System.Drawing.Color.MintCream;
+            this.lbMenuSlide.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMenuSlide.ForeColor = System.Drawing.Color.MintCream;
+            this.lbMenuSlide.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbMenuSlide.Location = new System.Drawing.Point(0, 251);
+            this.lbMenuSlide.Name = "lbMenuSlide";
+            this.lbMenuSlide.Size = new System.Drawing.Size(8, 45);
+            this.lbMenuSlide.TabIndex = 1;
+            this.lbMenuSlide.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnHome
             // 
