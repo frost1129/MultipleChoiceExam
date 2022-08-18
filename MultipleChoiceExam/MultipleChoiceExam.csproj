@@ -58,6 +58,12 @@
     <Compile Include="formGV.Designer.cs">
       <DependentUpon>formGV.cs</DependentUpon>
     </Compile>
+    <Compile Include="formGV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formGV2.Designer.cs">
+      <DependentUpon>formGV2.cs</DependentUpon>
+    </Compile>
     <Compile Include="formLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="formSV.Designer.cs">
       <DependentUpon>formSV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSV2.Designer.cs">
+      <DependentUpon>formSV2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -99,11 +111,17 @@
     <EmbeddedResource Include="formGV.resx">
       <DependentUpon>formGV.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formGV2.resx">
+      <DependentUpon>formGV2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formLogin.resx">
       <DependentUpon>formLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formSV.resx">
       <DependentUpon>formSV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSV2.resx">
+      <DependentUpon>formSV2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -142,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="media\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="media\account.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

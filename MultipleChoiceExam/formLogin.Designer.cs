@@ -39,6 +39,7 @@ namespace MultipleChoiceExam
             this.cbType = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.lbExit = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -161,6 +162,19 @@ namespace MultipleChoiceExam
             this.lbExit.Text = "Exit";
             this.lbExit.Click += new System.EventHandler(this.lbExit_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.78182F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Teal;
+            this.label5.Location = new System.Drawing.Point(121, 520);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(161, 24);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Forgot password?";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // formLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
@@ -175,6 +189,7 @@ namespace MultipleChoiceExam
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.btLogin);
             this.Controls.Add(this.label3);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.78182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -205,5 +220,6 @@ namespace MultipleChoiceExam
         private System.Windows.Forms.ComboBox cbType;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label lbExit;
+        private System.Windows.Forms.Label label5;
     }
 }
