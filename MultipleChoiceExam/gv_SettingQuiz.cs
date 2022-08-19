@@ -16,5 +16,20 @@ namespace MultipleChoiceExam
         {
             InitializeComponent();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            if (panelUser.Visible == true)
+            {
+                panelUser.Visible = false;
+            }
+            else
+                panelUser.Visible = true;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
