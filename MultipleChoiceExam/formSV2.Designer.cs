@@ -63,6 +63,7 @@ namespace MultipleChoiceExam
             this.panelUser.Size = new System.Drawing.Size(148, 140);
             this.panelUser.TabIndex = 10;
             this.panelUser.Visible = false;
+            this.panelUser.Paint += new System.Windows.Forms.PaintEventHandler(this.panelUser_Paint);
             // 
             // btnExit
             // 
@@ -127,7 +128,7 @@ namespace MultipleChoiceExam
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogout.Location = new System.Drawing.Point(0, 0);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(157, 35);
+            this.btnLogout.Size = new System.Drawing.Size(100, 35);
             this.btnLogout.TabIndex = 3;
             this.btnLogout.Text = "Menu";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -171,6 +172,7 @@ namespace MultipleChoiceExam
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(560, 5);
             this.label3.TabIndex = 5;
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -180,6 +182,7 @@ namespace MultipleChoiceExam
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 5);
             this.label2.TabIndex = 6;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // lbUsername
             // 
@@ -204,6 +207,7 @@ namespace MultipleChoiceExam
             this.label1.Size = new System.Drawing.Size(211, 42);
             this.label1.TabIndex = 8;
             this.label1.Text = "Main menu";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label4
             // 
