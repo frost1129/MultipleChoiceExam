@@ -32,12 +32,12 @@ namespace MultipleChoiceExam
             this.gV_Menu1 = new MultipleChoiceExam.userControl.GV_Menu();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelUser = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -86,6 +86,7 @@ namespace MultipleChoiceExam
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.MintCream;
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label3);
@@ -100,44 +101,6 @@ namespace MultipleChoiceExam
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "[213] - (tên môn học) - (loại kỳ thi)";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(23, 44);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(238, 29);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Ngày thi: dd/MM/yyyy";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(324, 44);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(272, 29);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Thời gian mở đề: hh:mm\r\n";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCyan;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.74545F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Teal;
-            this.button2.Location = new System.Drawing.Point(697, 31);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(132, 37);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Chỉnh sửa";
-            this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -155,16 +118,32 @@ namespace MultipleChoiceExam
             this.button1.Text = "Xóa kỳ thi";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // label4
+            // button2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(23, 88);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(246, 29);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Số câu hỏi: (số lượng)";
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
+            this.button2.FlatAppearance.BorderSize = 2;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCyan;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.74545F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Teal;
+            this.button2.Location = new System.Drawing.Point(697, 31);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(132, 37);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Chỉnh sửa";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(324, 44);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(272, 29);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Thời gian mở đề: hh:mm\r\n";
             // 
             // label5
             // 
@@ -176,6 +155,28 @@ namespace MultipleChoiceExam
             this.label5.Size = new System.Drawing.Size(284, 29);
             this.label5.TabIndex = 1;
             this.label5.Text = "Thời gian làm bài: ( ) phút";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Teal;
+            this.label4.Location = new System.Drawing.Point(23, 88);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(246, 29);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Số câu hỏi: (số lượng)";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.70909F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Teal;
+            this.label2.Location = new System.Drawing.Point(23, 44);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(238, 29);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Ngày thi: dd/MM/yyyy";
             // 
             // panelUser
             // 
@@ -294,6 +295,7 @@ namespace MultipleChoiceExam
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.MintCream;
             this.groupBox2.Controls.Add(this.button7);
             this.groupBox2.Controls.Add(this.button8);
             this.groupBox2.Controls.Add(this.label7);
@@ -387,6 +389,7 @@ namespace MultipleChoiceExam
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.MintCream;
             this.groupBox3.Controls.Add(this.button9);
             this.groupBox3.Controls.Add(this.button10);
             this.groupBox3.Controls.Add(this.label11);

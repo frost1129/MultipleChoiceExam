@@ -171,7 +171,7 @@ namespace MultipleChoiceExam
             this.btnLogout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogout.Location = new System.Drawing.Point(0, 0);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(125, 35);
+            this.btnLogout.Size = new System.Drawing.Size(148, 35);
             this.btnLogout.TabIndex = 3;
             this.btnLogout.Text = "Menu";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

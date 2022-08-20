@@ -94,13 +94,19 @@
     <Compile Include="gv_SettingQuiz.Designer.cs">
       <DependentUpon>gv_SettingQuiz.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="sv_JoinQuiz.cs">
+    <Compile Include="gv_Total.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="sv_JoinQuiz.Designer.cs">
-      <DependentUpon>sv_JoinQuiz.cs</DependentUpon>
+    <Compile Include="gv_Total.Designer.cs">
+      <DependentUpon>gv_Total.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sv_TotalScores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sv_TotalScores.Designer.cs">
+      <DependentUpon>sv_TotalScores.cs</DependentUpon>
     </Compile>
     <Compile Include="sv_Quizzz.cs">
       <SubType>Form</SubType>
@@ -141,6 +147,9 @@
     <EmbeddedResource Include="gv_SettingQuiz.resx">
       <DependentUpon>gv_SettingQuiz.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="gv_Total.resx">
+      <DependentUpon>gv_Total.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -151,8 +160,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="sv_JoinQuiz.resx">
-      <DependentUpon>sv_JoinQuiz.cs</DependentUpon>
+    <EmbeddedResource Include="sv_TotalScores.resx">
+      <DependentUpon>sv_TotalScores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sv_Quizzz.resx">
       <DependentUpon>sv_Quizzz.cs</DependentUpon>

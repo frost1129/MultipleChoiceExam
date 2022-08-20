@@ -78,6 +78,7 @@ namespace MultipleChoiceExam
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.MintCream;
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.comboBox2);
             this.groupBox1.Controls.Add(this.comboBox1);
@@ -203,6 +204,7 @@ namespace MultipleChoiceExam
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.MintCream;
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.textBox1);
             this.groupBox2.Controls.Add(this.label7);
@@ -273,6 +275,7 @@ namespace MultipleChoiceExam
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.MintCream;
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.textBox4);
             this.groupBox3.Controls.Add(this.textBox3);
