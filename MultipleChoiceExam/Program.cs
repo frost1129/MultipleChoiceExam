@@ -16,7 +16,7 @@ namespace MultipleChoiceExam
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new gv_Total());
+            Application.Run(new sv_TotalScores());
         }
     }
 }
